@@ -18,9 +18,19 @@ Polymer({
       value: 'en-au'
     },
 
+    codec: {
+      type: String,
+      value: "mp3"
+    },
+
     format: {
       type: String,
-      value: 'mp3'
+      value: '44khz_16bit_stereo'
+    },
+
+    rate: {
+      type: Number,
+      value: 0
     }
   },
 
@@ -30,9 +40,9 @@ Polymer({
         key: this.apiKey,
         src: this.text,
         hl: this.language,
-        r: 0,
-        c: this.format,
-        f: '44khz_16bit_stereo',
+        r: this.rate,
+        c: this.codec,
+        f: this.format,
         ssml: false
       });
     } catch (e) {
