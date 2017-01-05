@@ -42,6 +42,7 @@ Polymer({
     }
   },
 
+  /** Plays the text assigned to the `element` */
   playText: function() {
     try {
       VoiceRSS.speech({
