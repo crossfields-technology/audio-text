@@ -44,6 +44,7 @@ Polymer({
 
   /** Plays the text assigned to the `element` */
   playText: function() {
+    console.log("Does this work?");
     try {
       VoiceRSS.speech({
         key: this.apiKey,
