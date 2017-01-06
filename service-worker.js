@@ -29,7 +29,7 @@
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["/crossfields-audio-text.html","8d455aabb39c0ef58201e1c6abd4220c"]];
+var PrecacheConfig = [["/bower_components/polymer/polymer-micro.html","c8afdb92849d162268e7cc58eff5cd57"],["/bower_components/polymer/polymer-mini.html","33af9817ee3946c225d038f5a04d276a"],["/bower_components/polymer/polymer.html","186cfd0bba3b39fd262e69dc7bcc699a"],["/crossfields-audio-text.html","07a3762014a32eb71c0146c23364bc26"],["/crossfields-audio-text.js","1c1278ef9dcbdbae52ee355f36cfc203"],["/script/voicerss-tts.min.js","d5f412327251008c01e2738aa13fe9be"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1--' + (self.registration ? self.registration.scope : '') + '-';
 
