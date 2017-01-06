@@ -1,0 +1,26 @@
+{
+  "name": "crossfields-audio-text",
+  "version": "1.0.0",
+  "description": "Audio element using text to speech api.",
+  "main": "crossfields-audio-text.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "polymer test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan-collins/crossfields-audio-text.git"
+  },
+  "author": "Nathan Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathan-collins/crossfields-audio-text/issues"
+  },
+  "homepage": "https://github.com/nathan-collins/crossfields-audio-text#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
